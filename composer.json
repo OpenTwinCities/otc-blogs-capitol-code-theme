@@ -1,0 +1,13 @@
+{
+  "name": "OpenTwinCities/otc-blogs-capitol-code-theme",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "wpackagist-theme/epic": "1.2.*"
+  }
+}
