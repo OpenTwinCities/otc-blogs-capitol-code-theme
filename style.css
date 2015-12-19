@@ -1,0 +1,184 @@
+/**
+ * Theme Name: Capitol Code
+ * Theme URI: https://slocumthemes.com/wordpress-themes/epic-free/
+ * Description: A "one-click" child theme created for Epic - Make an Epic statement with this responsive WordPress blog theme. The perfect combination of minimalism and bold design for your journal, photo stream or video blog. Now supports live front-end text widget editing via <a href="http://wordpress.org/plugins/note/" target="_blank">Note</a>. More info - <a href="http://wordpress.org/plugins/note/" target="_blank">http://wordpress.org/plugins/note/</a>.
+ * Author: Slocum Design Studio
+ * Author URI: https://slocumthemes.com/
+ * Version: 1.0
+ * License: GPL2+
+ * License URI: http://www.gnu.org/licenses/gpl.html
+ * Template: epic
+ */
+
+nav .primary-nav li a{
+    color: #00adef;
+}
+
+nav .primary-nav li a:hover{
+    background: #0b335e;
+    color: #00adef;
+}
+
+#searchform input.submit{
+    background: #0b335e;
+}
+
+#searchform input.submit:hover,
+#searchform input.submit.hover {
+    background: #0b335e;
+    color: #00adef;
+}
+
+p a.button,
+.latest-post a.button,
+article.content a.more-link,
+article.content a.post-edit-link,
+article.content .previous-posts a,
+article.content .next-posts a,
+article.content a.comment-reply-link,
+article.content .comment-navigation a,
+article.full-width-content a.post-edit-link,
+article.full-width-content .previous-posts a,
+article.full-width-content .next-posts a,
+article.full-width-content a.comment-reply-link,
+article.full-width-content .comment-navigation a,
+a#cancel-comment-reply-link,
+#respond input[type="submit"],
+.gform_wrapper .gform_footer input.button,
+.gform_wrapper .gform_footer input[type=submit], .button {
+    background: #0b335e;
+}
+
+p a.button:hover,
+.latest-post p a.button:hover,
+article.content a.more-link:hover,
+article.content a.post-edit-link:hover,
+article.content .previous-posts a:hover,
+article.content .next-posts a:hover,
+article.content a.comment-reply-link:hover,
+article.content .comment-navigation a:hover,
+article.full-width-content a.post-edit-link:hover,
+article.full-width-content .previous-posts a:hover,
+article.full-width-content .next-posts a:hover,
+article.full-width-content a.comment-reply-link:hover,
+article.full-width-content .comment-navigation a:hover,
+a#cancel-comment-reply-link:hover,
+#respond input[type="submit"]:hover,
+.gform_wrapper .gform_footer input.button:hover,
+.gform_wrapper .gform_footer input[type=submit]:hover, .button:hover {
+    background: #0b335e;
+    color: #00adef;
+}
+
+h1.page-title a {
+    color: #0b335e !important;
+}
+
+#post-83 h2{
+    clear: both;
+}
+
+#post-83 h3{
+    text-transform: none;
+    clear: both;
+}
+
+h1.page-title a,
+article.content h1, article.full-width-content h1, article.content h1 a, article.full-width-content h1 a,
+article.content h2, article.full-width-content h2, article.content h2 a, article.full-width-content h2 a,
+article.content h3, article.full-width-content h3, article.content h3 a, article.full-width-content h3 a,
+article.content h4, article.full-width-content h4, article.content h4 a, article.full-width-content h4 a,
+article.content h5, article.full-width-content h5, article.content h5 a, article.full-width-content h5 a{
+    color: #0b335e !important;
+}
+
+article.content a, article.full-width-content a{
+    color: #00adef;
+}
+
+/****
+ * Sidebar
+ ****/
+
+aside.sidebar a{
+    color: #00adef;
+}
+
+aside.sidebar .widgettitle{
+    color: #0b335e;
+}
+
+#primary-sidebar-sds-social-media-widget-2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.mc4wp-alert{
+    clear:both;
+    padding-top: 0.4em;
+}
+
+.social-media-icons a, .widget .social-media-icons a, .footer-widget .social-media-icons a {
+    background: #0b335e;
+}
+
+/****
+ * Footer
+ ****/
+
+footer#footer{
+	border-top: 1px solid;
+}
+
+
+@media only screen and (max-width : 640px) {
+    /* ------------------
+        Navigation Button
+       ---------------------  */
+    .nav-button, .primary-nav-button {
+        background: #0b335e url('images/menu-icon-large.png') center center no-repeat;
+    }
+
+    .primary-nav-button {
+        background: #0b335e;
+        font-weight: 400px;
+    }
+
+    .nav-button:hover, .primary-nav-button:hover {
+        background: #0b335e url('images/menu-icon-large.png') center center no-repeat;
+    }
+
+    .primary-nav-button:hover {
+        background: #0b335e;
+    }
+
+    .nav-button.open, .primary-nav-button.open {
+        background: #0b335e url('images/menu-icon-large.png') center center no-repeat;
+    }
+
+    .primary-nav-button.open {
+        background: #0b335e;
+    }
+
+    nav .primary-nav li {
+        background: #0b335e;
+    }
+
+    article.content h1.page-title {
+        background: none;
+    }
+
+    /* Copyright Area */
+    .copyright {
+        background: #0b335e;
+    }
+
+    a .alignleft,
+    a img.alignleft{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
