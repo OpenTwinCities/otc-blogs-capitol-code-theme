@@ -1,5 +1,8 @@
 {
   "name": "OpenTwinCities/otc-blogs-capitol-code-theme",
+  "type": "wordpress-theme",
+  "description": "Wordpress theme for the 2014 Capitol Code website",
+  "homepage": "http://capitolcode.mn.gov",
   "license": "MIT",
   "repositories": [
     {
@@ -9,5 +12,8 @@
   ],
   "require": {
     "wpackagist-theme/epic": "1.2.*"
+  },
+  "extra": {
+    "installer-name": "capitol-code"
   }
 }
